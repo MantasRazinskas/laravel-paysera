@@ -1,0 +1,29 @@
+{
+    "name": "rpagency/laravel-paysera",
+    "description": "A Laravel package for integrating Paysera payment gateway",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rpagency\\LaravelPaysera\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "webtopay/libwebtopay": "^1.6"
+    },
+    "authors": [
+        {
+            "name": "Royal Peacock Agency"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rpagency\\LaravelPaysera\\PayseraServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
